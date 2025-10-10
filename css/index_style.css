@@ -1,18 +1,24 @@
         :root {
             /* colors unforch gonna have to be manual cause I don't wanna do js TT */
             --theme-colorA: #196B5B;
-            --theme-colorA-light: #cce0dc;
+            --theme-colorA-light: #196b5b62; /* cce0dc */
             --theme-colorB: #21406E;
             --theme-colorC: #ffffff;
+        }
+        html {
+            background-color: var(--theme-colorA-light);
+            background-image: linear-gradient(to top, var(--theme-colorB), #ffffff00 40%);
         }
         html * {
             color:var(--theme-colorA);
             font-family: "Tahoma", sans-serif;
         }
-        body {
-            /* background-color: #daffff; */
-            background-color: var(--theme-colorA-light);
-            }
+
+        /* body {
+            background-color: #daffff;
+            
+            } */
+
         img {
 
             border-width: 2px;
@@ -28,14 +34,15 @@
             /* text-shadow: -2px 2px 2px var(--theme-colorA) ; */
 
             /* border settings */
-            /* border: 2px solid var(--theme-colorA); */
+            border: 2px solid var(--theme-colorA);
             border-radius: 12px;
             box-shadow: -3px 3px var(--theme-colorA);
 
             /* padding and background */
             padding: 1%;
             padding-left: 3%;
-            background-image: linear-gradient(to top right, var(--theme-colorA) ,
+            background-color: white;
+            background-image: linear-gradient(to top right, var(--theme-colorA-light) ,
                 var(--theme-colorB));
             
         }
@@ -52,26 +59,45 @@
         } */
 
         h3 {
+            width: fit-content;
             color: var(--theme-colorB);
-            text-decoration: underline 2px;
-            /* width:fit-content;
-            border: 2px solid var(--theme-colorA);
-            border-radius: 12px;
-            background-color: var(--theme-colorB);
-            padding: 2%;
-            padding-inline: 5%; */
+            padding-inline: 15px;
+            
+
+            /* gradient oval background */
+            /* 
+            border-radius: 20px;
+            background-image: linear-gradient(to top, 
+                var(--theme-colorA-light) 1%, #ffffff00); */
+
+            /* shadow background variant */
+            border-radius: 3px 10px 3px 10px;
+            /* background-color: var(--theme-colorA-light); */
+            text-shadow: -2px 1px 2px white;
+            background-image: linear-gradient(to top right, 
+                var(--theme-colorA-light) , #ffffff00 70%);
+            
         }
         
         .img {
-            overflow: auto;
-            margin: 20px;
+            margin-inline: 15px;
             
             /* border: 2px solid var(--theme-colorA); */
             border-radius: 15px;
         }
+        .yt {
+            width: 560px;
+            height: 315px;
+        }
         .blurb {
+            overflow: auto;
+            margin: 2%;
+            margin-inline: 20%;
+            scrollbar-color: var(--theme-colorB) #ffffff00;
             border: 4px solid var(--theme-colorA);
             background-color: var(--theme-colorC);
             padding: 2%;
             border-radius: 15px;
+            
         }
+        
