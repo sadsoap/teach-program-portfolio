@@ -100,4 +100,8 @@
             border-radius: 15px;
             
         }
+        td{
+            margin: 20%;
+            padding-inline: 10px;
+        }
         
