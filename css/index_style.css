@@ -7,8 +7,7 @@
         }
         html {
             background-color: var(--theme-colorA-light);
-            background-image: linear-gradient(to top right, var(--theme-colorB), #ffffff00 40%);
-            background-image: linear-gradient(to top right, var(--theme-colorB), #ffffff00 40%);
+            background-image: linear-gradient(to top right, var(--theme-colorB), #ffffff00 40%), linear-gradient(to top left, var(--theme-colorB), #ffffff00 40%);
         }
         html * {
             color:var(--theme-colorA);
