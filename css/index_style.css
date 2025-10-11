@@ -13,7 +13,6 @@
             color:var(--theme-colorA);
             font-family: "Tahoma", sans-serif;
             overflow: auto;
-            scrollbar-color: green red;
         }
 
         /* body {
@@ -85,7 +84,6 @@
         }
         
         .img {
-            margin-inline: 15px;
             border-radius: 15px;
         }
         .yt {
