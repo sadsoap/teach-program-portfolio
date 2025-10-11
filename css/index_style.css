@@ -38,6 +38,7 @@
             border: 2px solid var(--theme-colorA);
             border-radius: 12px;
             box-shadow: -3px 3px var(--theme-colorA);
+            overflow: hidden;
 
             /* padding and background */
             
@@ -89,9 +90,8 @@
         }
         .yt {
             border-radius: 15px;
-            width: auto;
-            max-width: 300px;
-            max-height: 180px;
+            width: 280px;
+            height: 168px;
 
             /* width: 560px;
             height: 315px; */
