@@ -7,7 +7,8 @@
         }
         html {
             background-color: var(--theme-colorA-light);
-            background-image: linear-gradient(to top right, var(--theme-colorB), #ffffff00 40%), linear-gradient(to top left, var(--theme-colorB), #ffffff00 40%);
+            background-image: linear-gradient(to top right, var(--theme-colorB), #ffffff00 40%), 
+                linear-gradient(to top left, var(--theme-colorB), #ffffff00 40%);
         }
         html * {
             color:var(--theme-colorA);
@@ -91,6 +92,7 @@
             border-radius: 15px;
             width: 280px;
             height: 168px;
+            margin: 4px;
 
             /* width: 560px;
             height: 315px; */
